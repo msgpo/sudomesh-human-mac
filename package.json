@@ -1,0 +1,10 @@
+{
+  "name": "sudomesh-human-mac",
+  "version": "0.0.1",
+  "dependencies": {
+  },
+  "scripts": {
+    "start": "bin/cmd.js"
+  },
+  "license": "AGPL-1.0"
+}
