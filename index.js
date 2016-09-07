@@ -1,7 +1,7 @@
-
 var fs = require('fs');
+var path = require('path');
 
-var lines = fs.readFileSync('wordlist').toString().split('\n');
+var lines = fs.readFileSync(path.join(__dirname, 'wordlist')).toString().split('\n');
 
 // convert a number to a two-digit hex string
 function toHexStr(val) {
